@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layouts{
+    width:400px;
+    height: 30px;
+    margin: 20px auto;
+}
+.layouts a{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 10px;
+}
+.layouts a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.header{
+    width: 800px;
+    height: 150px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+
+.logo{
+    width: 300px;
+    height: 70px;
+    padding: 5px;
+    border: 2px solid black;
+}
+.top-nav{
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.menu{
+    width: 550px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
